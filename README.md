@@ -47,12 +47,14 @@
 > * 优化代码，例如减少冗余代码、减低耦合度、规范化变量命名等
 
 ## 启动注意事项
-* windows系统需要将服务器和客户端的`loadConfig()`函数中的`strData.replace("\r\n"," ")`的`\r\n`替换为`\n'
+* windows系统需要将服务器和客户端的`loadConfig()`函数中的`strData.replace("\r\n"," ")`的`\r\n`替换为`\n`
 * 需要在mysql中添加数据库`networkdiskdb`，并在服务端的`void DBOperate::init()`中修改自己的数据库用户名和密码
 
 ## 待改进功能
 1. 私聊需要刷新好友才能显示，且不能发送中文
-2. 
+2. 好友添加后也是需要刷新好友才能显示
+3. 消息提示框不够明显
+
 ## :computer:主要贡献者
 
 [@Light Ink](https://github.com/LightInk2020)，[@Evil Hare](https://github.com/eharecz)
